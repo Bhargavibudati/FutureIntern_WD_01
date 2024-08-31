@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhargavi's Art Gallery</title>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Bhargavi's Art Gallery</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Art Gallery</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Welcome to My Art Gallery</h1>
+          <p>Discover the beauty of art through our curated collection.</p>
+          <p>
+            Follow my
+            <a
+            class="btn"
+              href="https://www.instagram.com/lil_artist_zeal?igsh=MTRnMXVwbWI3ZGg4cA=="
+              target="_blank" 
+              >Instagram</a
+            > page to see more of my sketches and stay updated with my latest
+            creations
+          </p>
+          <a href="#gallery" class="btn">Explore Gallery</a>
+        </div>
+        <div class="hero-image">
+          <img src="./girlpa1.jpg" alt="Girl Painting" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        My art gallery showcases a wide range of art pieces.I find inspiration
+        in the world around me, especially in the expressions and emotions of
+        people. Each face tells a unique story, and I love capturing that on
+        canvas. Whether it's a fleeting smile, a thoughtful gaze, or the
+        intricate details of a landscape, I draw and paint what truly captivates
+        me. My art is a reflection of the beauty I see in everyday moments,
+        transformed into visual stories that resonate with both myself and those
+        who view my work.
+      </p>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Our Collection</h2>
+      <div class="grid-container">
+        <div class="grid-item"><img src="./img11.jpg" alt="Art Piece 1" /></div>
+        <div class="grid-item"><img src="./img3.jpg" alt="Art Piece 3" /></div>
+        <div class="grid-item"><img src="./img4.jpg" alt="Art Piece 4" /></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you're interested in my work or have any inquiries, feel free to
+        reach out.
+      </p>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Bhargavi's Art. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
