@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bhargavi's Art Gallery</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <header>
       <div class="logo">Bhargavi's Art Gallery</div>
       <nav>
         <ul>
-          <li><a href="#Home">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#about">About us</a></li>
           <li><a href="#gallery">Art Gallery</a></li>
           <li><a href="#contact">Contact us</a></li>
@@ -24,17 +25,8 @@
         <div class="hero-text">
           <h1>Welcome to My Art Gallery</h1>
           <p>Discover the beauty of art through our curated collection.</p>
-          <p>
-            Follow my
-            <a
-            class="btn"
-              href="https://www.instagram.com/lil_artist_zeal?igsh=MTRnMXVwbWI3ZGg4cA=="
-              target="_blank" 
-              >Instagram</a
-            > page to see more of my sketches and stay updated with my latest
-            creations
-          </p>
-          <a href="#gallery" class="btn">Explore Gallery</a>
+          <p>Follow my page to see more of my sketches and stay updated with my latest creations</p>
+          <a href="https://www.instagram.com/lil_artist_zeal?igsh=MTRnMXVwbWI3ZG" class="btn">Instagram</a>
         </div>
         <div class="hero-image">
           <img src="./girlpa1.jpg" alt="Girl Painting" />
@@ -43,9 +35,9 @@
     </section>
 
     <section id="about" class="about">
-      <h2>About Us</h2>
+      <h1>About Us</h1>
       <p>
-        My art gallery showcases a wide range of art pieces.I find inspiration
+        My art gallery showcases a wide range of art pieces. I find inspiration
         in the world around me, especially in the expressions and emotions of
         people. Each face tells a unique story, and I love capturing that on
         canvas. Whether it's a fleeting smile, a thoughtful gaze, or the
@@ -57,38 +49,48 @@
     </section>
 
     <section id="gallery" class="gallery">
-      <h2>Our Collection</h2>
+      <h1>Art Gallery</h1>
       <div class="grid-container">
         <div class="grid-item"><img src="./img11.jpg" alt="Art Piece 1" /></div>
+        <div class="grid-item"><img src="./img2.jpg" alt="Art Piece 2" /></div>
         <div class="grid-item"><img src="./img3.jpg" alt="Art Piece 3" /></div>
         <div class="grid-item"><img src="./img4.jpg" alt="Art Piece 4" /></div>
+        
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        If you're interested in my work or have any inquiries, feel free to
-        reach out.
-      </p>
-      <form action="#">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+    <section id="contact" class="contact-section">
+      <div class="contact-content">
+        <div class="contact-form">
+          <h1>Contact Me</h1>
+          
+          <p>
+            If you're interested in my work or have any inquiries, feel free to
+            reach out.
+          </p>
+          <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+        
+        
+      </div>
     </section>
 
     <footer>
       <p>&copy; 2024 Bhargavi's Art. All rights reserved.</p>
+      <script src="scripts.js"></script>
     </footer>
-    
-    <script src="scripts.js"></script>
   </body>
 </html>
+ 
+
